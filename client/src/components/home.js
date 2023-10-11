@@ -12,7 +12,7 @@ export default function Home() {
     return (
         <div className="home-hero text-center">
             <div className="background">
-                <h1>Algo Gauge</h1>
+                <h1>Algo Gauges</h1>
                 <h3>Battle Of The Algorithms</h3>
                 <a className="home-button" href="/testing">Fight</a>
             </div>
