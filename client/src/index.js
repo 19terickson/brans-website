@@ -12,6 +12,7 @@ import "./stylesheets/main.scss";
 // Home page component
 import Home from "./components/home.js";
 import Contact from "./components/contact.js";
+import About from "./components/about.js"
 
 function App() {
     axios.defaults.withCredentials = true;
@@ -25,6 +26,9 @@ function App() {
              <Route
                 path="/contact" element={<Contact />}
             />
+            <Route
+                path="/about" element={<About />}
+                />
         </Routes>
     );
 }
