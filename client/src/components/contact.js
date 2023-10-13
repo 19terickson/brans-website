@@ -29,9 +29,10 @@ export default function Home() {
             {/* title */}
         <div>
             <h2>Contact Information</h2>
-            <p>Email: {contactInfo.email}</p>
-            <p>LinkedIn: <a href={contactInfo.linkedin} target="_blank" rel="noopener noreferrer">{contactInfo.linkedin}</a></p>
-            <p>Phone: {contactInfo.phone}</p>
+            <p>Address: 1674 South Haven Parkway, West Haven UT, 84401</p>
+            <p>Email: bransenerickson02@gmail.com</p>
+            <p>Phone: 801-444-1215{contactInfo.phone}</p>
+            <p><a href= "https://www.linkedin.com/in/bransen-erickson/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
         </div>
                  {/* footer */}
                  <Footer class="Footer"/>
