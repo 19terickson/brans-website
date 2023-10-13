@@ -1,0 +1,51 @@
+@use '../custom' as *;
+
+.navbar {
+    background-color: $main;
+}
+
+.active {
+    color: white !important;
+}
+
+nav {
+    background-color: $main;
+    .navbar-brand {
+        width: 50%;
+        color: $text;
+    }
+    img {
+        width: 50%;
+    }
+
+    .navbar-brand:hover{
+        color: white;
+    }
+    
+    .nav-link {
+        color: $text;
+        font-size: 1.5rem;
+    }
+
+
+    .nav-link.active {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .nav-link:hover {
+        color: white;
+    }
+    
+    .navbar-toggler {
+        color: white;
+     //   background-color: white;
+    }
+
+    .navbar-toggler-icon {
+        color: white;
+    }
+    button {
+        color: white;
+    }
+}

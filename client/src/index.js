@@ -2,10 +2,10 @@ import React from "react";
 import axios from "axios";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import { useNavigate } from "react-router-dom";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.min';
-// import Popper from 'popper.js';
+import { useNavigate } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Popper from 'popper.js';
 import "./stylesheets/main.scss";
 
 // import components

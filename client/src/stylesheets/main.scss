@@ -1,9 +1,9 @@
 @use "custom";
 @use "sections/home";
-// @use "sections/navbar";
+@use "sections/navbar";
 // @use "sections/login";
 // @use "sections/create";
-// @use "sections/footer";
+ @use "sections/footer";
 // @use "sections/testing";
 
 @font-face {
